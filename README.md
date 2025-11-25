@@ -69,3 +69,6 @@ Todo el código está en una sola aplicación React + Vite – sin backend, sin 
 
 ##Investigación previa del proyecto:
 https://www.notion.so/Proyecto-integrador-2b599374778980f29e27dca8e4701348?source=copy_link
+##Analisis de implementecion de mundo virtual (Minecraft) en el proyecto:
+https://docs.google.com/document/d/1XJvX86i4ai1dgUcDFcOmEYpneSB0zWIl7R-JPRVZYx4/edit?usp=sharing
+
