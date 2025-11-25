@@ -1,7 +1,11 @@
 "# pictionary-ia-simple" 
 # Pictionary IA – Versión Simple (Proyecto Integrador)
 
+![Banner del proyecto](https://via.placeholder.com/1200x400.png?text=Pictionary+IA+-+Dibuja+y+la+IA+completa+o+adivina)  
+**Juego web estilo Pictionary con inteligencia artificial en tiempo real – 100% frontend**
 
+Live Demo → https://tu-proyecto.vercel.app  
+(Deploy en Vercel – siempre disponible)
 
 ## Descripción del proyecto
 
@@ -69,7 +73,6 @@ Todo el código está en una sola aplicación React + Vite – sin backend, sin 
 ## Cómo ejecutar el proyecto
 
 ```bash
-git clone https://github.com/tu-usuario/pictionary-ia-simple.git
+git clone https://github.com/Marilizzz/pictionary-ia-simple.git
 cd pictionary-ia-simple
-
 npm install
