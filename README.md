@@ -1,5 +1,10 @@
 "# pictionary-ia-simple" 
 # Pictionary IA – Versión Simple (Proyecto Integrador)
+Itiid-ia
+Méndez Pérez Mariana Lizette 
+Aldo Hernández Paz
+Erick Eduardo Macías Rodriguez
+Johana Guadalupe Barco Pacheco
 
 
 ## Descripción del proyecto
@@ -71,4 +76,6 @@ Todo el código está en una sola aplicación React + Vite – sin backend, sin 
 https://www.notion.so/Proyecto-integrador-2b599374778980f29e27dca8e4701348?source=copy_link
 ##Analisis de implementecion de mundo virtual (Minecraft) en el proyecto:
 https://docs.google.com/document/d/1XJvX86i4ai1dgUcDFcOmEYpneSB0zWIl7R-JPRVZYx4/edit?usp=sharing
+##Evidencia de vinculación al proyecto:
+https://docs.google.com/document/d/1TscLcM0BBKN7RpLyAAmSE0xr2niglcaPLxGe0qoga5M/edit?usp=sharing
 
