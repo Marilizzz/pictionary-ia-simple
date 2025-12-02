@@ -2,8 +2,8 @@ import { useState, useRef, useEffect } from 'react'
 import { Stage, Layer, Line } from 'react-konva'
 import words from '../words.json'
 
-const REPLICATE_TOKEN = "r8_50s4y39Jq7foZ6BmbwVALai9DVe8dSx0BjegE"  // ← Cambia esto
-const HF_TOKEN = "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"          // ← Cambia esto
+const REPLICATE_TOKEN = "r8_50s4y39Jq7foZ6BmbwVALai9DVe8dSx0BjegE"  
+const HF_TOKEN = "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"          
 export default function Game({ mode, reset }) {
   const [lines, setLines] = useState([])
   const [word] = useState(words[Math.floor(Math.random() * words.length)])
@@ -41,7 +41,6 @@ export default function Game({ mode, reset }) {
     setResult({ loading: true })
 
     if (mode === 'timed') {
-      // Completar con Replicate
       const res = await fetch("https://api.replicate.com/v1/predictions", {
         method: "POST",
         headers: { Authorization: `Token ${REPLICATE_TOKEN}`, "Content-Type": "application/json" },
@@ -58,7 +57,7 @@ export default function Game({ mode, reset }) {
       }
       setResult({ type: 'completed', user: uri, ai: prediction.output })
     } else {
-      // Adivinar con Hugging Face
+      
       const res = await fetch("https://api-inference.huggingface.co/models/Salesforce/blip-image-captioning-large", {
         method: "POST",
         headers: { Authorization: `Bearer ${HF_TOKEN}` },
@@ -114,4 +113,5 @@ export default function Game({ mode, reset }) {
       {result && <button onClick={reset}>Jugar de nuevo</button>}
     </div>
   )
+
 }
