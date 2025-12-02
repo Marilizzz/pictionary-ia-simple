@@ -3,7 +3,7 @@ import Home from './components/Home.jsx'
 import Game from './components/Game.jsx'
 
 function App() {
-  const [mode, setMode] = useState(null) // null | "timed" | "unlimited"
+  const [mode, setMode] = useState(null) 
 
   if (mode === null) {
     return <Home setMode={setMode} />
@@ -11,5 +11,6 @@ function App() {
 
   return <Game mode={mode} reset={() => setMode(null)} />
 }
+
 
 export default App
